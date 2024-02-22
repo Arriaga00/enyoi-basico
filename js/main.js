@@ -16,7 +16,8 @@ const usuarios = [
       }
 ]
 
-$btnIngreso.addEventListener('click',()=>{
+$btnIngreso.addEventListener('click',(e)=>{
+    e.preventDefault()
     const email = $email.value
     const password = $password.value
     usuarios.map(el=>{
