@@ -28,9 +28,9 @@ btnGestion.addEventListener('click', e => {
     //estilo
     tabla.className = 'min-w-full divide-y-2 divide-gray-200 bg-white text-sm '
     encabezado.className = 'ltr:text-left rtl:text-right'
-    filaEncabezado.classList= 'whitespace-nowrap px-4 py-2 font-medium text-gray-900 '
+    filaEncabezado.classList= 'whitespace-nowrap px-4 py-2 font-bold text-gray-900 '
     cuerpo.className ='divide-y divide-gray-200'
-    fila.className = 'whitespace-nowrap px-4 py-2 font-medium text-gray-900 '
+    fila.className = 'whitespace-nowrap px-4 py-2 font-medium text-gray-500 '
 
     fragment.appendChild(tabla);
     $tabla.appendChild(fragment);
